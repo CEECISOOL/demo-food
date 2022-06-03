@@ -18,16 +18,6 @@ router.get("/", async (req, res) => {
         })
     });
 
-    let dietDb = await Diet.findAll({
-        attributes: ['name']
-    });
-
-    dietDb.forEach(el => {
-        if (!dietArr.includes(el.name)) {
-            dietArr = dietArr.concat(el.name)
-        }
-    })
-
     dietArr.forEach(el => {
         Diet.findOrCreate({
             where: { name: el }
