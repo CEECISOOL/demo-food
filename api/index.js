@@ -19,10 +19,10 @@
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
-//const { Diet } = require('../api/src/db');
+const { Diet } = require('../api/src/db');
 
 
-/*async function dietCreate() {
+async function dietCreate() {
   let defaultDiet = [
     "gluten free",
     "vegan",
@@ -42,17 +42,17 @@ const { conn } = require('./src/db.js');
     where: {name: e}
 })
 })
-}*/
+}
 
 //Syncing all the models at once.
 conn.sync({ force: false }).then(() => {
   server.listen(process.env.PORT, () => {
     console.log('%s listening at 3001'); // eslint-disable-line no-console
-    /*try {
+    try {
       dietCreate()
     } catch (error) {
       console.log(error)
-    }*/
+    }
   });
 });
 
