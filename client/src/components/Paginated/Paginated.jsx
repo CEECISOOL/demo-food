@@ -11,7 +11,7 @@ export default function Paginated({ recipesPerPage, recipes, paginated }) {
 
     return (
         <div className={s.paginated}>
-            <ul>
+            <ul className={s.ulPag}>
                 {pageNumber.length > 1 &&
                     pageNumber.map(number => (
                         <li className='number' key={number}>

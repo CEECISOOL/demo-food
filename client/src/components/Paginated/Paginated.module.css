@@ -32,3 +32,14 @@ button {
   background-color: rgb(247, 66, 102);
   color: white;
 }
+@media (min-width: 100px) and (max-width: 650px) {
+  .btnPag{
+    width: 25px;
+    height: 15px;
+    font-size: 10px;
+    border-radius: 3px;
+  }
+  .ulPag{
+    padding: 0%;
+  }
+}

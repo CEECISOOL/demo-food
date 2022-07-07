@@ -120,6 +120,8 @@ option {
         width: 50px;
         font-size: 7px;
     }
-
-
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
   }

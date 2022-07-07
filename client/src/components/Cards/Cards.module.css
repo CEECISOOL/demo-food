@@ -46,3 +46,24 @@
   text-decoration: none;
   color: rgb(247, 66, 102);
 }
+
+@media (min-width: 100px) and (max-width: 650px) {
+  .container{
+    height:250px ;
+  }
+  .card{
+    width: 150px;
+    height: 200px;
+  }
+  .card h4{
+    font-size: 10px;
+  }
+  .card img{
+    width: 70px;
+    height: 50px;
+  }
+  .card p{
+    font-size: 8px;
+  }
+
+}
