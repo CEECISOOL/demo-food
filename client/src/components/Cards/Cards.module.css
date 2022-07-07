@@ -65,5 +65,9 @@
   .card p{
     font-size: 8px;
   }
+  .card:hover{
+    width: 80px;
+    height: 55px;
+  }
 
 }
