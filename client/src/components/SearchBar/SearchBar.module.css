@@ -18,3 +18,16 @@
     height: 20px;
     border-color: black;
 }
+
+@media (min-width: 100px) and (max-width: 650px) {
+    .search button{
+        width: 85px;
+        height: 15px;
+        font-size: 9px;
+    }
+    .search input{
+        width: 85px;
+        height: 12px;
+        font-size: 8px;
+    }
+  }

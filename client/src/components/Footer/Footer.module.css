@@ -1,0 +1,13 @@
+.footer {
+    background-color: #9d1d36;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.leyenda {
+    text-align: center;
+    color: white;
+    justify-content: center;
+}

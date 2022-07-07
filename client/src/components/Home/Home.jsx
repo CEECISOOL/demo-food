@@ -8,6 +8,7 @@ import Filters from '../Filters/Filters';
 import Cards from '../Cards/Cards';
 import Paginated from '../Paginated/Paginated';
 import Loading from "../Loading/Loading";
+import Footer from '../Footer/Footer';
 
 export default function Home() {
     const dispatch = useDispatch();
@@ -82,6 +83,7 @@ export default function Home() {
                         />
                     </div>
                 </div>
+                <br />
                 <div className={s.filters}>
                     <Filters
                         allDiets={allDiets}
@@ -140,6 +142,7 @@ export default function Home() {
                     />
                 </div>
             </div>
+            <Footer/>
         </>
     )
 

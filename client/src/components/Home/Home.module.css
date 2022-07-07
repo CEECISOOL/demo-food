@@ -1,26 +1,3 @@
-@media screen and (max-width: 480px) {
-    .navBar {
-        height: 150px;
-        width: 900px;
-    }
-    .filters{
-        height: 150px;
-        width: 900px;
-    }
-    .paginated{
-        height: 150px;
-        width: 950px;
-    }
-    .cards{
-        display:grid inline-grid;
-        grid-template-rows: 1fr;
-
-    }
-    .error{
-        padding-left: 100%;
-    }
-
-}
 .navBar {
     margin: 20px 50px;
     border-radius: 25px;
@@ -108,3 +85,41 @@ option {
 .error {
     color: white
 }
+
+@media (min-width: 100px) and (max-width: 650px) {
+    .container{
+        margin-top: 3%;
+        
+    }
+    .navBar{
+        width: 350px;
+        margin: 0% auto;
+    }
+    .navBar h1{
+      font-size: 15px;
+    }
+    .btnCreate{
+        width: 50px;
+        height: 25px;
+        font-size: 9px;
+    }
+    .filters{
+        width: 350px;
+        height: 40px;
+        margin: 0% auto;
+    }
+    .filters h4{
+        font-size: 7px;
+        margin: 0%;
+    }
+    .filters select{
+        width: 65px;
+        font-size: 7px;
+    }
+    .btnReload{
+        width: 50px;
+        font-size: 7px;
+    }
+
+
+  }
