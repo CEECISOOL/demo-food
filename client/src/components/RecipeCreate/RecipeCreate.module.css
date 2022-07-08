@@ -116,3 +116,12 @@
     border-color: rgb(18, 18, 18);
 
 }
+
+@media (min-width: 100px) and (max-width: 650px) {
+    .titleForm{
+        width: 350px;
+    }
+    .container{
+        width: 350px;
+    }
+  }
